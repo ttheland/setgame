@@ -1,0 +1,172 @@
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+body {
+  margin: 20px;
+  background-color: #5d806e;
+}
+
+h1 {
+  padding-top: 0;
+  margin: 0;
+  height: 100px;
+  font-family: "Eczar";
+  font-size: 80px;
+  color: blue;
+  letter-spacing: 15px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#tutorialButton {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 350px;
+}
+
+.gamestage {
+  margin-left: 120px;
+  width: 450px;
+  height: 450px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(225, 225, 225, 0.3);
+  border-radius: 50px;
+  color: white;
+}
+
+.deckBox {
+  margin-top: 160px;
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(225, 225, 225, 0.3);
+  text-align: center;
+}
+.deckBox img {
+  margin-top: 10px;
+}
+.deckBox p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.setBox {
+  margin-top: 20px;
+  width: 200px;
+  height: 140px;
+  border-radius: 30px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(225, 225, 225, 0.3);
+}
+.setBox img {
+  padding-left: 5px;
+  margin-top: 0px;
+  max-width: 30%;
+  height: auto;
+}
+.setBox p {
+  text-align: center;
+}
+
+#howButton {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -140px;
+}
+
+/* Control the left side of modal content area */
+.left {
+  float: left;
+}
+
+/* Control the right side of modal content area  */
+.right {
+  float: left;
+  padding-left: 30px;
+}
+ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+li {
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  padding-top: 50px;
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 130px 130px 130px;
+  grid-gap: 5px;
+}
+
+.wrapper img {
+  transform: rotate(90deg);
+  border-radius: 5px;
+}
+.wrapper img:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 6px 0 rgba(255, 255, 255, 0.25),
+    -6px -6px 6px 0 rgba(225, 225, 225, 0.3);
+}
+
+.gameButtons {
+  position: absolute;
+  padding-left: 0px;
+}
+
+.scores {
+  position: absolute;
+  margin-top: 160px;
+  padding-top: 20px;
+  width: 120px;
+  height: 200px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(225, 225, 225, 0.3);
+}
+.scores em {
+  font-size: 22px;
+}
+.scores h2 {
+  margin-top: 0px;
+  font-size: 30px;
+  color: lightgreen;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.tutorialModal {
+}
+.tutorialModal img {
+  transform: rotate(90deg);
+  max-width: 15%;
+  max-height: 15%;
+  margin-left: 0px;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #51db23;
+  position: bottom;
+}
+
+pre {
+  color: #ffffff;
+  background-color: #405245;
+  width: 80%;
+}
+
+.exampleSet {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
